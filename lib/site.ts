@@ -4,13 +4,13 @@
  */
 
 // TODO: replace with your live booking link (Cal.com, Calendly, SavvyCal…)
-export const BOOKING_URL = "https://cal.com/BOOKING_URL";
+export const BOOKING_URL = "https://calendly.com/activeiingredient/45mins";
 
 // TODO: replace with the studio's email address
-export const EMAIL = "EMAIL_PLACEHOLDER";
+export const EMAIL = "hello@activiingredient.site";
 
 // TODO: replace with the live Instagram profile URL
-export const INSTAGRAM_URL = "https://instagram.com/INSTAGRAM_PLACEHOLDER";
+export const INSTAGRAM_URL = "https://instagram.com/activingredent/";
 
 // Used for canonical + Open Graph URLs. Update after the first deploy.
 export const SITE_URL = "https://activeingredient.site";
