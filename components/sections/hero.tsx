@@ -1,8 +1,8 @@
 import { BookButton } from "@/components/book-button";
 import { Branch, Flock } from "@/components/illustrations";
-import { MandalaWatermark, Sun } from "@/components/ornaments";
+import { MandalaWatermark } from "@/components/ornaments";
 import { Reveal } from "@/components/reveal";
-import { cn, container } from "@/lib/utils";
+import { container } from "@/lib/utils";
 
 export function Hero() {
   return (
@@ -30,8 +30,8 @@ export function Hero() {
           aria-hidden
           className="relative mt-7 h-[31vh] min-h-[210px] md:mt-10 md:h-[42vh] md:min-h-[300px]"
         >
-          <MandalaWatermark className="absolute right-[16%] top-1/2 h-[104%] w-auto -translate-y-1/2 opacity-[0.045]" />
-          <Sun className="absolute right-[7%] top-[3%] h-[clamp(96px,26vw,206px)] w-[clamp(96px,26vw,206px)] animate-breathe md:right-[3%] md:h-[clamp(96px,14vw,206px)] md:w-[clamp(96px,14vw,206px)]" />
+          <MandalaWatermark className="absolute right-[16%] top-1/2 h-[104%] w-auto -translate-y-1/2 opacity-[0.07]" />
+          <div className="absolute right-[12%] top-[14%] h-[clamp(14px,2.2vw,26px)] w-[clamp(14px,2.2vw,26px)] rounded-full bg-[#2B1709]" />
           <Branch className="absolute -left-5 bottom-0 h-[86%] w-auto text-ink/55 md:bottom-[-6%] md:left-[1.5%] md:h-[104%]" />
           <Flock className="absolute inset-0 h-full w-full text-ink" />
         </div>
@@ -39,8 +39,8 @@ export function Hero() {
         {/* Headline and intro */}
         <div className="grid grid-cols-1 items-end gap-y-10 pb-12 pt-7 md:grid-cols-12 md:gap-x-8 md:pb-24 md:pt-2">
           <Reveal className="md:col-span-8 md:col-start-5 md:row-start-1">
-            <h1 className="display text-[clamp(3rem,8.6vw,8.25rem)] text-ink">
-              Let&rsquo;s grow
+            <h1 className="display text-[clamp(2.6rem,6.2vw,5.75rem)] text-ink">
+              Let&rsquo;s grow and evolve
               <span className="mt-[0.02em] block italic tracking-[-0.035em]">
                 together.
               </span>
